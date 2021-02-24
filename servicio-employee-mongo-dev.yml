@@ -8,8 +8,8 @@ spring:
       database: cjavadatabase
 
 server:
-  port: 8084
- 
+  port: 9006
+
 eureka:
   client:
     register-with-eureka: true

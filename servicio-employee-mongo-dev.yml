@@ -3,8 +3,8 @@ spring:
     name: servicio-employee-mongo
   data:
     mongodb:
-      #host: mongo
-      host: localhost
+      host: mongo
+      #host: localhost
       port: 27017
       database: cjavadatabase
 
@@ -16,8 +16,8 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-            defaultZone: http://localhost:8761/eureka/
-#            defaultZone: http://servicio-eureka-server:8761/eureka/
+#            defaultZone: http://localhost:8761/eureka/
+            defaultZone: http://servicio-eureka-server:8761/eureka/
 #  instance:
 #    hostname: localhost 
     

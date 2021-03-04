@@ -1,23 +1,23 @@
-spring:
-  application:
-    name: ms-employee
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: cjavadatabase
+# spring:
+#   application:
+#     name: ms-employee
+#   data:
+#     mongodb:
+#       host: localhost
+#       port: 27017
+#       database: cjavadatabase
 
-server:
-  port: 9005
+# server:
+#   port: 9005
 
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-            defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
+# eureka:
+#   client:
+#     register-with-eureka: true
+#     fetch-registry: true
+#     service-url:
+#             defaultZone: http://localhost:8761/eureka/
+#   instance:
+#     hostname: localhost
 
-configuracion:
-  texto: Configurando ambiente por defecto
+# configuracion:
+#   texto: Configurando ambiente por defecto

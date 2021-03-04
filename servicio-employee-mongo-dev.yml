@@ -3,7 +3,8 @@ spring:
     name: servicio-employee-mongo
   data:
     mongodb:
-      host: mongo
+      #host: mongo
+      host: localhost
       port: 27017
       database: cjavadatabase
 

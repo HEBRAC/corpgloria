@@ -16,8 +16,8 @@ eureka:
     fetch-registry: true
     service-url:
             defaultZone: http://servicio-eureka-server:8761/eureka/
-  instance:
-    hostname: localhost 
+#  instance:
+#    hostname: localhost 
     
 configuracion:
   texto: Configurando ambiente desarrollo mongodb
